@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Home - srluxuries</title>
+    <!-- <a rel="icon" href="img/core-img/favicon.ico" /> -->
+    <link href="output.css" rel="stylesheet">
+
+
+        
+
+
+</head>
+
+<body>
+    <header class="">
+        <div class="classy-nav-container breakpoint-off d-flex align-items-center justify-content-between">
+            <nav id="header" class="bg-transparent">
+                <div class="w-full container flex flex-wrap items-center justify-between mt-0 py-1">
+                    <div class="logo-wrapper pl-11 flex items-center">
+                    <a href="./index.html">
+                        <img
+                        src="../src/assets/images/logo.png"
+                        alt="Logo"
+                        width=50
+                        height=50
+                        class="h-12 w-12 object-contain ml-4"
+                        />
+                    </a>  
+                    </div>
+                    <ul class="nav-menu-wrapper flex-col md:flex-row flex md:space-x-8 mt-4 md:mt-0 md:text-l md:font-medium">
+                        <li>
+                            <a href="./index.html" class="bg-blue-700 md:bg-transparent text-white block pl-3 pr-4 py-2 md:text-[#CD8F2C] md:p-0 rounded focus:outline-none"
+                                aria-current="page">Home
+                            </a>
+                        </li>
+                        <li>
+                            <button onClick="toggleDropdown('shopDropdownMenu')" data-dropdown-toggle="dropdownNavbar"
+                                class="dropdown-button text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 pl-3 pr-4 py-2 md:hover:text-[#E4CB9C] md:p-0 font-medium flex items-center justify-between w-full md:w-auto">
+                                    Shop
+                                <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                    clip-rule="evenodd">
+                                    </path>
+                                </svg>
+                            </button>
+                                <div id="shopDropdown" class="dropdown-menu active bg-transparent text-base z-10 list-none rounded shadow absolute mt-2 w-36 left-30">
+                                        <ul class="py-1" aria-labelledby="dropdownNavbarLink">
+                                        <li>
+                                            <a href="shop.html" class="text-l hover:bg-gray-100 text-gray-700 block px-4 py-2">All Products</a>
+                                        </li>
+                                        <li>
+                                            <a href="beads.html" class="text-l hover:bg-gray-100 text-gray-700 block px-4 py-2">Beads</a>
+                                        </li>
+                                        <li>
+                                            <a href="caps.html" class="text-l hover:bg-gray-100 text-gray-700 block px-4 py-2">Caps</a>
+                                        </li>
+                                        <li>
+                                            <a href="./footwears.html" class="text-l hover:bg-gray-100 text-gray-700 block px-4 py-2">Footwears</a>
+                                        </li>
+                                        <li>
+                                            <a href="./perfumes.html" class="text-l hover:bg-gray-100 text-gray-700 block px-4 py-2">Perfumes</a>
+                                        </li>
+                                    </ul> 
+                                </div>                                           
+                        </li>
+                        <li>
+                            <button onClick="toggleDropdown('pagesDropdownMenu')"  data-dropdown-toggle="dropdownNavbar"
+                                class="dropdown-button text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 pl-3 pr-4 py-2 md:hover:text-[#E4CB9C] md:p-0 font-medium flex items-center justify-between w-full md:w-auto">
+                                    Pages
+                                <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                        clip-rule="evenodd">
+                                    </path>
+                                </svg>
+                            </button>
+                                <div id="pagesDropdown" class="dropdown-menu active bg-transparent text-base z-10 list-none rounded shadow absolute mt-2 w-36 left-30">
+                                    <ul class="py-1" aria-labelledby="dropdownNavbarLink">
+                                        <li>
+                                            <a href="/about" class="text-l hover:bg-gray-100 text-gray-700 block px-4 py-2">About</a>
+                                        </li>
+                                        <li>
+                                            <a href="/faq" class="text-l hover:bg-gray-100 text-gray-700 block px-4 py-2">FAQs</a>
+                                        </li>
+                                        <li>
+                                            <a href="/services" class="text-l hover:bg-gray-100 text-gray-700 block px-4 py-2">Services</a>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </li>
+                       
+                        <li>
+                        <a href="./deals.html" class="text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-[#E4CB9C] md:p-0">Deals</a>
+                        </li>
+                        <li>
+                        <a href="./locator.html" class="text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-[#E4CB9C] md:p-0">Store Locator</a>
+                        </li>
+                    </ul>
+    
+                    <div class="flex items-center justify-between space-x-2">
+                        <div class="">
+                            <form>
+                                <label for="SearchInquiry" class=""> </label>
+                                <input type="search" class="px-2 py-1 h-8 border border-solid  border-[#E4CB9C] rounded-full text-sm leading-snug text-[#352208] shadow-none outline-none focus:outline-none w-full font-normal rounded-l-none flex-1 border-l-0 placeholder-[#E4CB9C]" placeholder="&emsp;Search for products" />
+                            </form>
+                        </div>
+                        <div class="relative m-6 inline-flex w-fit pr-4">
+                            <a href="./wishlist.html">
+                                <img
+                                    src="/assets/images/svg/heart-outline.svg"
+                                    alt="Likes"
+                                    width={10}
+                                    height={10}
+                                    class="h-8 w-8 object-contain"
+                                />
+                            </a>
+                        </div>
+                        <div class="relative m-6 inline-flex w-fit pr-4">
+                            <a href="/login">
+                                <img
+                                    src="/assets/images/svg/person-outline.svg"
+                                    alt="Profile"
+                                    width={10}
+                                    height={10}
+                                    class="h-8 w-8 object-contain"
+                                />
+                            </a>
+                        </div>
+                        <div class="relative m-6 inline-flex w-fit pr-4">
+                            <a href="/cart">
+                                <img
+                                    src="/assets/images/svg/cart-outline.svg"
+                                    alt="Cart"
+                                    width={10}
+                                    height={10}
+                                    class="h-8 w-8 object-contain mr-4"
+                                />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+    </header>
+    <section class="my-5">
+        <div class="form bg-transparent border-butter w-1/4 border border-2 border-rounded mx-auto">
+            <div class="w-full mx-auto">
+                <form class="mt-5 pl-4">
+                    <div class="form-header text-center">
+                        <h2 class="text-2xl text-ggreen font-bold">Agbada</h2>
+                        <p class="text-sm">Please provide your measurement in inches</p>
+                    </div>
+                    <div class="mb-3 mt-5">
+                        <label for="agbada-length" class="text-ggreen text-l font-light">Length: </label>
+                        <input type="number" placeholder="Length" class="ml-8 p-2 border border-rounded border-2 border-ggreen" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="agbada-body-length" class="text-ggreen text-l font-light">Body: </label>
+                        <input type="number" placeholder="Body Length" class="ml-11 p-2 border border-rounded border-2 border-ggreen" />
+                    </div>
+
+                    <div class="mb-3">
+                    <label for="agbada-chest" class="text-ggreen text-l font-light">Chest: &nbsp;</label>
+                    <input type="number" placeholder="Chest" class="ml-8 p-2 border border-rounded border-2 border-ggreen" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="agbada-back" class="text-ggreen text-l font-light">Back: &nbsp;</label>
+                        <input type="number" placeholder="Back" class="ml-10 p-2 border border-rounded border-2 border-ggreen" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="agbada-short-sleeve" class="text-ggreen text-l font-light">Sleeve: </label>
+                        <input type="number" placeholder="Short Sleeve" class="ml-8 p-2 border border-rounded border-2 border-ggreen" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="agbada-long-sleeve" class="text-ggreen text-l font-light">Sleeve: </label>
+                        <input type="number" placeholder="Long Sleeve" class="ml-8 p-2 border border-rounded border-2 border-ggreen" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="agbada-ankle-sleeve" class="text-ggreen text-l font-light">Sleeve: </label>
+                        <input type="number" placeholder="Neck" name="agbada-ankle-sleeve" class="ml-8 p-2 border border-rounded border-2 border-ggreen"/>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="agbada-stomach" class="text-ggreen text-l font-light">Stomach: </label>
+                        <input type="number" placeholder="Stomach" class="ml-4 p-2 border border-rounded border-2 border-ggreen"/>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="agbada-trouser-length" class="text-ggreen text-l font-light">Length: </label>
+                        <input type="number" placeholder="Trouser Length" name="agbada-trouser-length" class="ml-8 p-2 border border-rounded border-2 border-ggreen"/>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="agbada-trouser-waist" class="text-ggreen text-l font-light">Waist: </label>
+                        <input type="number" placeholder="Trouser Waist" name="agbada-trouser-waist" class="ml-10 p-2 border border-rounded border-2 border-ggreen"/>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="agbada-lap" class="text-ggreen text-l font-light">Lap: &nbsp;</label>
+                        <input type="number" placeholder="Lap" name="agbada-lap" class="ml-12 p-2 border border-rounded border-2 border-ggreen"/>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="agbada-hip" class="text-ggreen text-l font-light">Hip: &nbsp;</label>
+                        <input type="number" placeholder="Hip" name="agbada-hip" class="ml-12 p-2 border border-rounded border-2 border-ggreen"/>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="agbada-calf" class="text-ggreen text-l font-light">Calf: </label>
+                        <input type="number" placeholder="Calf" name="agbada-calf" class="ml-12 p-2 border border-rounded border-2 border-ggreen"/>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="agbada-neck" class="text-ggreen text-l font-light">Neck: </label>
+                        <input type="number" placeholder="Neck" name="agbada-neck" class="ml-10 p-2 border border-rounded border-2 border-ggreen"/>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="agbada-cap" class="text-ggreen text-l font-light">Cap: </label>
+                        <input type="number" placeholder="Cap" name="agbada-cap" class="ml-12 p-2 border border-rounded border-2 border-ggreen"/>
+                    </div>
+
+                    <div class="my-3 text-center">
+                        <button class="rounded-full bg-goldie px-8 py-2 text-xl hover:bg-tan hover:text-ggreen
+                            border border-goldie hover:border-tan">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
