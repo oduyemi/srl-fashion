@@ -1,5 +1,5 @@
 {
-  "name": "yes",
+  "name": "srl",
   "version": "1.0.0",
   "description": "fashion store",
   "main": "index.js",
@@ -13,5 +13,17 @@
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oduyemi/srl-fashion.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oduyemi/srl-fashion/issues"
+  },
+  "homepage": "https://github.com/oduyemi/srl-fashion#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.28"
   }
 }
