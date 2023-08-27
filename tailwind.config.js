@@ -19,6 +19,9 @@ theme: {
       bluey: "#39A9DB",
       placeholderColor: "#DEDEDE"
     },
+    variants: {
+      display: ['responsive', 'group-hover', 'group-focus'],
+     },
   },
 },
   plugins: [],
