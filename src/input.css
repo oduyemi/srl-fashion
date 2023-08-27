@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-<<<<<<< HEAD
-=======
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Ubuntu:300,400,500,700");
 
 
@@ -20,6 +18,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    overflow-x: hidden !important;
   }
   
   
@@ -28,14 +27,13 @@
       background-color: #ffffff;
       scroll-behavior: smooth;
       overflow-x: hidden;
-      font-family: Georgia, Times, serif;
+      font-family: poppins, montserrat, sans-serif;
       margin-top: 85px;
   }
   
   @media only screen and (max-width: 767px) {
     body {
       margin-top: 80px; } }
-
 
 img {
   height: auto;
@@ -62,74 +60,12 @@ img {
   .hidden {
     display: none;
   }
-  
+
   #header{
    margin-top: -5%;
   }
 
-  .banner{
-    height: 80vh;
-    background-image: url(../src/assets/images/hero.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-y: 10%;
-  }
   
-  .banner-desc{
-    position: relative;
-    top: 40%;
-    left: 14%;
-  }
-  
-  .abt{
-    height: 80vh;
-    background-image: url(../src/assets/images/abt.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-y: 10%;
-  }
-  
-  .abt-desc{
-    position: relative;
-    top: 40%;
-    left: 14%;
-    color: #ffffff;
-  }
-  
-  .serv{
-    height: 80vh;
-    background-image: url(../src/assets/images/tailor.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-y: 40%;
-    background-position-x: 40%;
-  }
-  
-  .collection{
-    height: 40vh;
-    background-image: url(../src/assets/images/a.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-y: 40%;
-    background-position-x: 40%;
-  }
-  
-  .quest{
-    background-image: url(../src/assets/faq.jpg) !important;
-  }
-  
-  .deals{
-    background-image: url(../src/assets/deals.jpg) !important;
-  }
-  
-  .line{
-    text-decoration: underline;
-  }
-  
-  .consult{
-    position: relative;
-    left:7%;
-  }
   
   
   
@@ -176,17 +112,7 @@ img {
     .single-cat:hover .cat-content a {
       color: #CD8F2C; }
   
-  .single-cat-1{
-    background-image: url(../src/assets/images/designs.jpg);
-  }
   
-  .single-cat-2{
-    background-image: url(../assets/images/footwears.jpg);
-  }
-  
-  .single-cat-3{
-    background-image: url(../src/assets/images/accesories.jpg);
-  }
   
   .bg-img {
     background-position: center center;
@@ -359,10 +285,6 @@ img {
           border-top-right-radius: 0;
           border-bottom-right-radius: 0; }
 
-  /* .popular-products-slides{
-    margin:10px;
-    width:60% !important;
-  } */
 
   
     .cta-area {
@@ -397,14 +319,7 @@ img {
             .cta-area .cta-content .cta--text {
               padding-right: 0; } }
   
-      .cta-content{
-        background-image: url(../src/assets/custom.jpg);
-        background-size:55%;
-        background-position: left;
-        width: 80% !important;
-        position: relative;
-        left:16%;
-      }
+      
   
   .single-product-wrapper {
   position: relative;
@@ -799,4 +714,5 @@ img {
       position:relative;
       left:10%;
     } */
->>>>>>> parent of 91d2e5b (update)
+
+
