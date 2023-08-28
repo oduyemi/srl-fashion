@@ -33,8 +33,9 @@
   
   @media only screen and (max-width: 767px) {
     body {
-      margin-top: 80px; } }
+      margin-top: 80px; }} 
 
+      
 img {
   height: auto;
   max-width: 100%; }
@@ -58,9 +59,10 @@ img {
     margin-top: -5%;
   }
 
-  #hamburgerBtn {
+  #hamburger {
     padding: 0.5rem;
     background-color: transparent;
+    color:#CD8F2C !important;
     border: none;
     cursor: pointer;
   }
@@ -77,6 +79,7 @@ img {
     left:-1% !important;
   }
   
+ 
   
   .single-cat{
     position: relative;

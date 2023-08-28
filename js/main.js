@@ -7,11 +7,16 @@ function toggleDropdown(dropdownId) {
 }
 
 // Mobile menu
-const hamburgerBtn = document.getElementById('hamburger');
+const hamburger = document.getElementById('hamburger');
 const navLinks = document.getElementById('navLinks');
+const mobileLinks = document.getElementById("mobileLinks")
 
-hamburgerBtn.addEventListener('click', () => {
+hamburger.addEventListener('click', () => {
     navLinks.classList.toggle('hidden');
+});
+
+hamburger.addEventListener("click", () => {
+    mobileLinks.classList.toggle("hidden");
 });
 
 // Carousel
