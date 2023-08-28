@@ -8,145 +8,155 @@
     <title>Home - srluxuries</title>
     <!-- <link rel="icon" href="img/core-img/favicon.ico" /> -->
     <link href="dist/output.css" rel="stylesheet">
-    <link rel="stylesheet" href="../src/css/animate.css">
+    <link rel="stylesheet" href="/src/css/animate.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 
 </head>
 <body>
-    <section>
-        <header class="">
-            <div class="classy-nav-container breakpoint-off d-flex align-items-center justify-content-between">
-                <nav id="header" class="bg-transparent">
-                    <div class="w-full container flex flex-wrap items-center justify-between mt-0 py-1">
-                        <div class="logo-wrapper pl-11 flex items-center">
-                        <a href="./index.html">
-                            <img
-                            src="../src/assets/images/logo.png"
-                            alt="Logo"
-                            width={50}
-                            height={50}
-                            class="h-12 w-12 object-contain ml-4"
-                            />
-                        </a>  
-                        </div>
-                        <ul class="nav-menu-wrapper flex-col md:flex-row flex md:space-x-8 mt-4 md:mt-0 md:text-l md:font-medium">
-                            <li>
-                                <a href="./index.html" class="bg-blue-700 md:bg-transparent text-white block pl-3 pr-4 py-2 md:text-[#CD8F2C] md:p-0 rounded focus:outline-none"
-                                    aria-current="page">Home
-                                </a>
-                            </li>
-                            <li>
-                                <button onClick="toggleDropdown('shopDropdownMenu')" data-dropdown-toggle="dropdownNavbar"
-                                    class="dropdown-button text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 pl-3 pr-4 py-2 md:hover:text-[#E4CB9C] md:p-0 font-medium flex items-center justify-between w-full md:w-auto">
-                                        Shop
-                                    <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd"
-                                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                                        clip-rule="evenodd">
-                                        </path>
-                                    </svg>
-                                </button>
-                                    <div id="shopDropdown" class="dropdown-menu active bg-transparent text-base z-10 list-none rounded shadow absolute mt-2 w-36 left-30">
-                                            <ul class="py-1" aria-labelledby="dropdownNavbarLink">
-                                            <li>
-                                                <a href="./shop.html" class="text-l hover:bg-gray-100 text-gray-700 block px-4 py-2">All Products</a>
-                                            </li>
-                                            <li>
-                                                <a href="./beads.html" class="text-l hover:bg-gray-100 text-gray-700 block px-4 py-2">Beads</a>
-                                            </li>
-                                            <li>
-                                                <a href="./caps.html" class="text-l hover:bg-gray-100 text-gray-700 block px-4 py-2">Caps</a>
-                                            </li>
-                                            <li>
-                                                <a href="./footwears.html" class="text-l hover:bg-gray-100 text-gray-700 block px-4 py-2">Footwears</a>
-                                            </li>
-                                            <li>
-                                                <a href="./perfumes.html" class="text-l hover:bg-gray-100 text-gray-700 block px-4 py-2">Perfumes</a>
-                                            </li>
-                                        </ul> 
-                                    </div>                                           
-                            </li>
-                            <li>
-                                <button onClick="toggleDropdown('pagesDropdownMenu')"  data-dropdown-toggle="dropdownNavbar"
-                                    class="dropdown-button text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 pl-3 pr-4 py-2 md:hover:text-[#E4CB9C] md:p-0 font-medium flex items-center justify-between w-full md:w-auto">
-                                        Pages
-                                    <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd"
-                                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                                            clip-rule="evenodd">
-                                        </path>
-                                    </svg>
-                                </button>
-                                    <div id="pagesDropdown" class="dropdown-menu active bg-transparent text-base z-10 list-none rounded shadow absolute mt-2 w-36 left-30">
-                                        <ul class="py-1" aria-labelledby="dropdownNavbarLink">
-                                            <li>
-                                                <a href="./about.html" class="text-l hover:bg-gray-100 text-gray-700 block px-4 py-2">About</a>
-                                            </li>
-                                            <li>
-                                                <a href="./faq.html" class="text-l hover:bg-gray-100 text-gray-700 block px-4 py-2">FAQs</a>
-                                            </li>
-                                            <li>
-                                                <a href="./services.html" class="text-l hover:bg-gray-100 text-gray-700 block px-4 py-2">Services</a>
-                                            </li>
-                                        </ul>
-                                </div>
-                            </li>
-                           
-                            <li>
-                            <a href="./deals.html" class="text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-[#E4CB9C] md:p-0">Deals</a>
-                            </li>
-                            <li>
-                            <a href="./locator.html" class="text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-[#E4CB9C] md:p-0">Store Locator</a>
-                            </li>
-                        </ul>
-        
-                        <div class="flex items-center justify-between space-x-2">
-                            <div class="">
-                                <form>
-                                    <label htmlFor="SearchInquiry" class=""> </label>
-                                    <input type="search" class="px-2 py-1 h-8 border border-solid  border-[#E4CB9C] rounded-full text-sm leading-snug text-[#352208] shadow-none outline-none focus:outline-none w-full font-normal rounded-l-none flex-1 border-l-0 placeholder-[#E4CB9C]" placeholder="&emsp;Search for products" />
-                                </form>
-                            </div>
-                            <div class="relative m-6 inline-flex w-fit pr-4">
-                                <a href="./wishlist.html">
-                                    <img
-                                        src="../src/assets/images/svg/heart-outline.svg"
-                                        alt="Likes"
-                                        width={10}
-                                        height={10}
-                                        class="h-8 w-8 object-contain"
-                                    />
-                                </a>
-                            </div>
-                            <div class="relative m-6 inline-flex w-fit pr-4">
-                                <a href="./login.html">
-                                    <img
-                                        src="../src/assets/images/svg/person-outline.svg"
-                                        alt="Profile"
-                                        width={10}
-                                        height={10}
-                                        class="h-8 w-8 object-contain"
-                                    />
-                                </a>
-                            </div>
-                            <div class="relative m-6 inline-flex w-fit pr-4">
-                                <a href="./cart.html">
-                                    <img
-                                        src="../src/assets/images/svg/cart-outline.svg"
-                                        alt="Cart"
-                                        width={10}
-                                        height={10}
-                                        class="h-8 w-8 object-contain mr-4"
-                                    />
-                                </a>
-                            </div>
-                        </div>
+    <header class="bg-transparent mt-0">
+        <div class="smscrn container responsive hidden md:flex items-center justify-between"> 
+            <div class="flex items-center justify-center logo-wrapper pl-4 py-1">
+                <a href="./index.html">
+                    <img
+                        src="src/assets/images/logo.png"
+                        alt="Logo"
+                        width="40"
+                        height="40"
+                        class="h-12 w-12 object-contain ml-4"
+                    />
+                </a>
+            </div>
+            <div class="md:hidden">
+                <button id="hamburger">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+            </div> &emsp; &emsp; &emsp;
+            <ul class="hidden md:flex md:space-x-8 mt-4 md:mt-0 md:text-l">
+                <li>
+                    <a href="./index.html" class="bg-transparent text-white block pl-3 pr-4 py-2 md:text-[#CD8F2C] md:p-0 rounded focus:outline-none"
+                        aria-current="page">Home
+                    </a>
+                </li>
+                <li>
+                    <button onclick="toggleDropdown('shopDropdown')" data-dropdown-toggle="dropdownNavbar"
+                            class="dropdown-button text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 pl-3 pr-4 py-2 md:hover:text-[#E4CB9C] md:p-0 font-medium flex items-center justify-between w-full md:w-auto">
+                                Shop
+                            <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                clip-rule="evenodd">
+                                </path>
+                            </svg>
+                        </button>
+                    <div id="shopDropdown" class="hidden bg-grey-200 group-hover:block">
+                        <div class="px-2 pt-2 pb-4 bg-transparent shadow-lg">
+                            <div class="grid grid-cols-1 gap-4 grid-cols-2">
+                                <ul class="py-1" aria-labelledby="dropdownNavbarLink">
+                                    <li>
+                                        <a href="./shop.html" class="text-l hover:bg-gray-100 text-gray-700 block px-4 py-2">All Products</a>
+                                    </li>
+                                    <li>
+                                        <a href="./beads.html" class="text-l hover:bg-gray-100 text-gray-700 block px-4 py-2">Beads</a>
+                                    </li>
+                                    <li>
+                                        <a href="./caps.html" class="text-l hover:bg-gray-100 text-gray-700 block px-4 py-2">Caps</a>
+                                    </li>
+                                    <li>
+                                        <a href="./footwears.html" class="text-l hover:bg-gray-100 text-gray-700 block px-4 py-2">Footwears</a>
+                                    </li>
+                                    <li>
+                                        <a href="./perfumes.html" class="text-l hover:bg-gray-100 text-gray-700 block px-4 py-2">Perfumes</a>
+                                    </li>
+                                </ul> 
+                </li>
+                <li>
+                    <button onclick="toggleDropdown('pagesDropdown')"  data-dropdown-toggle="dropdownNavbar"
+                    class="dropdown-button text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 pl-3 pr-4 py-2 md:hover:text-[#E4CB9C] md:p-0 font-medium flex items-center justify-between w-full md:w-auto">
+                        Pages
+                    <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                            clip-rule="evenodd">
+                        </path>
+                    </svg>
+                </button>
+                    <div id="pagesDropdown" class="hidden bg-grey-200 group-hover:block">    
+                    <div class="px-2 pt-2 pb-4 bg-transparent shadow-lg">
+                        <div class="grid grid-cols-1 gap-4 grid-cols-2">
+                            <ul class="py-1" aria-labelledby="dropdownNavbarLink">
+                                <li>
+                                    <a href="./about.html" class="text-l hover:bg-gray-100 text-gray-700 block px-4 py-2">About</a>
+                                </li>
+                                <li>
+                                    <a href="./faq.html" class="text-l hover:bg-gray-100 text-gray-700 block px-4 py-2">FAQs</a>
+                                </li>
+                                <li>
+                                    <a href="./services.html" class="text-l hover:bg-gray-100 text-gray-700 block px-4 py-2">Services</a>
+                                </li>
+                            </ul>
                     </div>
-                </nav>
-        </header>
-    </section>
-
+                </li>
+                
+                <li>
+                <a href="./deals.html" class="text-gray-700 hover:bg-gray-50 hover:bg-transparent block pl-3 pr-4 hover:text-[#E4CB9C] p-0">Deals</a>
+                </li>
+                <li>
+                <a href="./locator.html" class="text-gray-700 hover:bg-gray-50 hover:bg-transparent block pl-3 pr-4 hover:text-[#E4CB9C] md:p-0">Locator</a>
+                </li>
+            </ul>
+                
+            <div class="side-icons flex items-center justify-between space-x-2">
+                <div class="relative m-6 inline-flex w-fit pr-2">
+                    <form>
+                        <label for="SearchInquiry" class=""></label>
+                        <input
+                            type="search"
+                            class="px-1 py-1 h-7 border border-solid border-[#E4CB9C] rounded-full text-sm leading-snug text-[#352208] shadow-none outline-none focus:outline-none w-full font-normal rounded-l-none flex-1 border-l-0 placeholder-[#E4CB9C]"
+                            placeholder="&emsp;Search for products"
+                        />
+                    </form>
+                </div>
+                <div class="relative m-6 inline-flex w-fit pr-2">
+                    <a href="./wishlist.html">
+                        <img
+                            src="src/assets/images/svg/heart-outline.svg"
+                            alt="Likes"
+                            width={10}
+                            height={10}
+                            class="h-8 w-8 object-contain"
+                        />
+                    </a>
+                </div>
+                <div class="relative m-6 inline-flex w-fit pr-2">
+                    <a href="./login.html">
+                        <img
+                            src="src/assets/images/svg/person-outline.svg"
+                            alt="Profile"
+                            width={10}
+                            height={10}
+                            class="h-8 w-8 object-contain"
+                        />
+                    </a>
+                </div>
+                <div class="relative m-6 inline-flex w-fit">
+                    <a href="./cart.html">
+                        <img
+                            src="src/assets/images/svg/cart-outline.svg"
+                            alt="Cart"
+                            width={10}
+                            height={10}
+                            class="h-8 w-8 object-contain mr-4"
+                        />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
     <section class="new_arrivals_area section-padding-80 clearfix my-5">
         <div class="container">
             <div class="w-full my-5">
@@ -161,8 +171,8 @@
                     <div class="flex items-center flex-wrap justify-center">
                         <div class="single-product-wrapper w-1/3">
                             <div class="product-img">
-                                <img class="" src="../src/assets/images/product-img/sr-1.jpg" alt="Product">
-                                <img class="hover-img" src="../src/assets/images/product-img/sr-1b.avif" alt="Product">
+                                <img class="" src="src/assets/images/product-img/sr-1.jpg" alt="Product">
+                                <img class="hover-img" src="src/assets/images/product-img/sr-1b.avif" alt="Product">
                                 <div class="product-favourite">
                                     <a href="#" class="favme fa fa-heart"></a>
                                 </div>
@@ -184,8 +194,8 @@
 
                         <div class="single-product-wrapper w-1/3">
                             <div class="product-img">
-                                <img src="../src/assets/images/product-img/sr-2.jpg" alt="Product">
-                                <img class="hover-img" src="../src/assets/images/product-img/sr-2b.jpg" alt="Product">
+                                <img src="src/assets/images/product-img/sr-2.jpg" alt="Product">
+                                <img class="hover-img" src="src/assets/images/product-img/sr-2b.jpg" alt="Product">
                                 <div class="product-favourite">
                                     <a href="#" class="favme fa fa-heart"></a>
                                 </div>
@@ -207,8 +217,8 @@
 
                         <div class="single-product-wrapper w-1/3">
                             <div class="product-img">
-                                <img src="../src/assets/images/product-img/sr-3.jpg" alt="Product">
-                                <img class="hover-img" src="../src/assets/images/product-img/sr-3b.webp" alt="Product">
+                                <img src="src/assets/images/product-img/sr-3.jpg" alt="Product">
+                                <img class="hover-img" src="src/assets/images/product-img/sr-3b.webp" alt="Product">
 
                                 <div class="product-badge offer-badge">
                                     <span>-30%</span>
@@ -236,8 +246,8 @@
 
                         <div class="single-product-wrapper w-1/3">
                             <div class="product-img">
-                                <img class="" src="../src/assets/images/product-img/sr-1.jpg" alt="Product">
-                                <img class="hover-img" src="../src/assets/images/product-img/sr-1b.avif" alt="Product">
+                                <img class="" src="src/assets/images/product-img/sr-1.jpg" alt="Product">
+                                <img class="hover-img" src="src/assets/images/product-img/sr-1b.avif" alt="Product">
                                 <div class="product-favourite">
                                     <a href="#" class="favme fa fa-heart"></a>
                                 </div>
@@ -259,8 +269,8 @@
 
                         <div class="single-product-wrapper w-1/3">
                             <div class="product-img">
-                                <img class="" src="../src/assets/images/product-img/sr-1.jpg" alt="Product">
-                                <img class="hover-img" src="../src/assets/images/product-img/sr-1b.avif" alt="Product">
+                                <img class="" src="src/assets/images/product-img/sr-1.jpg" alt="Product">
+                                <img class="hover-img" src="src/assets/images/product-img/sr-1b.avif" alt="Product">
                                 <div class="product-favourite">
                                     <a href="#" class="favme fa fa-heart"></a>
                                 </div>
@@ -283,8 +293,8 @@
 
                         <div class="single-product-wrapper w-1/3">
                             <div class="product-img">
-                                <img src="../src/assets/images/product-img/sr-4b.jpg" alt="Product">
-                                <img class="hover-img" src="../src/assets/images/product-img/sr-4b.jpg" alt="Product">
+                                <img src="src/assets/images/product-img/sr-4b.jpg" alt="Product">
+                                <img class="hover-img" src="src/assets/images/product-img/sr-4b.jpg" alt="Product">
 
                                 <div class="product-badge new-badge">
                                     <span>New</span>
@@ -320,7 +330,7 @@
         <div class="container">
             <div class="w-full my-5">
                 <div class="text-center">
-                    <h1 class="text-6xl font-semibold text-ggreen">Deals</h1>
+                    <h1 class="text-6xl font-semibold text-ggreen">Accessories</h1>
                 </div>
             </div>
         </div>
@@ -330,8 +340,8 @@
                     <div class="popular-products-slides owl-carousel flex items-center justify-center">
                         <div class="single-product-wrapper w-1/2">
                             <div class="product-img">
-                                <img class="" src="../src/assets/images/product-img/sr-1.jpg" alt="Product">
-                                <img class="hover-img" src="../src/assets/images/product-img/sr-1b.avif" alt="Product">
+                                <img class="" src="src/assets/images/product-img/sr-1.jpg" alt="Product">
+                                <img class="hover-img" src="src/assets/images/product-img/sr-1b.avif" alt="Product">
                                 <div class="product-favourite">
                                     <a href="#" class="favme fa fa-heart"></a>
                                 </div>
@@ -353,8 +363,8 @@
 
                         <div class="single-product-wrapper w-1/2">
                             <div class="product-img">
-                                <img src="../src/assets/images/product-img/sr-2.jpg" alt="Product">
-                                <img class="hover-img" src="../src/assets/images/product-img/sr-2b.jpg" alt="Product">
+                                <img src="src/assets/images/product-img/sr-2.jpg" alt="Product">
+                                <img class="hover-img" src="src/assets/images/product-img/sr-2b.jpg" alt="Product">
                                 <div class="product-favourite">
                                     <a href="#" class="favme fa fa-heart"></a>
                                 </div>
@@ -376,8 +386,8 @@
 
                         <div class="single-product-wrapper w-1/2">
                             <div class="product-img">
-                                <img src="../src/assets/images/product-img/sr-3.jpg" alt="Product">
-                                <img class="hover-img" src="../src/assets/images/product-img/sr-3b.webp" alt="Product">
+                                <img src="src/assets/images/product-img/sr-3.jpg" alt="Product">
+                                <img class="hover-img" src="src/assets/images/product-img/sr-3b.webp" alt="Product">
 
                                 <div class="product-badge offer-badge">
                                     <span>-30%</span>
@@ -405,8 +415,8 @@
 
                         <div class="single-product-wrapper w-1/2">
                             <div class="product-img">
-                                <img class="" src="../src/assets/images/product-img/sr-1.jpg" alt="Product">
-                                <img class="hover-img" src="../src/assets/images/product-img/sr-1b.avif" alt="Product">
+                                <img class="" src="src/assets/images/product-img/sr-1.jpg" alt="Product">
+                                <img class="hover-img" src="src/assets/images/product-img/sr-1b.avif" alt="Product">
                                 <div class="product-favourite">
                                     <a href="#" class="favme fa fa-heart"></a>
                                 </div>
@@ -428,8 +438,8 @@
 
                         <div class="single-product-wrapper w-1/2">
                             <div class="product-img">
-                                <img class="" src="../src/assets/images/product-img/sr-1.jpg" alt="Product">
-                                <img class="hover-img" src="../src/assets/images/product-img/sr-1b.avif" alt="Product">
+                                <img class="" src="src/assets/images/product-img/sr-1.jpg" alt="Product">
+                                <img class="hover-img" src="src/assets/images/product-img/sr-1b.avif" alt="Product">
                                 <div class="product-favourite">
                                     <a href="#" class="favme fa fa-heart"></a>
                                 </div>
@@ -452,8 +462,8 @@
 
                         <div class="single-product-wrapper w-1/2">
                             <div class="product-img">
-                                <img src="../src/assets/images/product-img/sr-4b.jpg" alt="Product">
-                                <img class="hover-img" src="../src/assets/images/product-img/sr-4b.jpg" alt="Product">
+                                <img src="src/assets/images/product-img/sr-4b.jpg" alt="Product">
+                                <img class="hover-img" src="src/assets/images/product-img/sr-4b.jpg" alt="Product">
 
                                 <div class="product-badge new-badge">
                                     <span>New</span>
@@ -483,7 +493,6 @@
         </div>
     </section>
 
-    
     <footer class="footer_area">
         <div class="container">
             <div class="flex flex-wrap">
@@ -492,9 +501,11 @@
                         <div class="footer-logo mr-4 md:mr-8">
                             <a href="/">
                                 <img
-                                    src="../src/assets/images/logo-white.png"
+                                    src="./assets/images/logo-white.png"
                                     alt="Logo"
-                                    class="single-brands-logo w-12 h-6 pl-6"
+                                    width={50}
+                                    height={50}
+                                    class="single-brands-logo pl-6"
                                 />
                             </a>
                         </div>
@@ -609,7 +620,7 @@
                     <p>
                         Copyright &copy; Samuel Rowland Luxuries All rights reserved | Made with
                         <img
-                            src="../src/assets/images/svg/heart.svg"
+                            src="/assets/images/svg/heart.svg"
                             alt="Likes"
                             width={5}
                             height={5}
@@ -624,34 +635,15 @@
     </footer>
 
 
-        <script src="../js/jquery/jquery-2.2.4.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-        <script src="../js/popper.min.js"></script>
-        <script src="../js/bootstrap.min.js"></script>
-        <!-- <script src="../js/plugins.js"></script> -->
-        <script src="../js/classy-nav.min.js"></script>
-        <script src="../js/active.js"></script>
-    
-    <script>
-      function toggleDropdown(dropdownId) {
-        var dropdownMenu = document.getElementById(dropdownId);
-        dropdownMenu.classList.toggle('active');
-        }
 
-        document.addEventListener('DOMContentLoaded', function() {
-        var dropdownButtons = document.querySelectorAll('.dropdown-button');
-
-        dropdownButtons.forEach(function(button) {
-            button.addEventListener('click', function(event) {
-                event.preventDefault();
-                var dropdownId = button.getAttribute('onClick').split("'")[1];
-                toggleDropdown(dropdownId);
-                });
-            });
-        });
-    </script>
       
-
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/active.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

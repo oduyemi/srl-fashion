@@ -26,7 +26,7 @@
       color: #000000;
       background-color: #ffffff;
       scroll-behavior: smooth;
-      overflow-x: hidden;
+      overflow-x: hidden !important;
       font-family: poppins, montserrat, sans-serif;
       margin-top: 85px;
   }
@@ -51,22 +51,31 @@ img {
 .section-padding-0-80 {
   padding-top: 0;
   padding-bottom: 80px; }
-  
-  .nav-menu-wrapper{
-    position: relative;
-    right:10%;
-  }
-  
-  .hidden {
-    display: none;
+
+  header{
+    width:100%;
+    /* height: 80px; */
+    margin-top: -5%;
   }
 
-  #header{
-   margin-top: -5%;
+  #hamburgerBtn {
+    padding: 0.5rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
   }
 
+  #navLinks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }  
   
-  
+  .side-icons{
+    position: relative !important;
+    left:-1% !important;
+  }
   
   
   .single-cat{
